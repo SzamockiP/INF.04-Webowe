@@ -23,7 +23,8 @@ CREATE DATABASE egzamin;
 Inside egzamin db:
 ```sql
 CREATE TABLE `list` (
-  `id` int(11) NOT NULL,
-  `data` text DEFAULT NULL
+  `id` int NOT NULL AUTO_INCREMENT,
+  `data` text DEFAULT NULL,
+  PRIMARY KEY (id)
 );
 ```
