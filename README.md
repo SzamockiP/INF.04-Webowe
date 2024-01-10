@@ -1,8 +1,12 @@
+# Egzamin - React + Node.js + MySql
+
+
+## How to run
 1. You need MySql server running
     - Database name: `egzamin`
     - User name: `root`
     - Host: `localhost`
-    - Password: ``
+    - Password: ` ` (empty)
     - Table: `list`
         - `id`: int primary key
         - `data`: text
