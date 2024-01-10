@@ -14,3 +14,16 @@
 3. In client directory you need to install dependencies: `npm install`
 4. To run server type in terminal in server directory: `node index.js`
 5. To run client type in terminal in client directory: `npm start`
+
+## Scripts for database:
+```sql
+CREATE DATABASE egzamin;
+```
+
+Inside egzamin db:
+```sql
+CREATE TABLE `list` (
+  `id` int(11) NOT NULL,
+  `data` text DEFAULT NULL
+);
+```
