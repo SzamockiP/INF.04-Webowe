@@ -71,7 +71,6 @@ app.delete('/list/delete', (req,res)=>{
         res.send('Row deleted successfully from table list');
       }
     });
-    console.log(id);
 });
     
 // update rekordy

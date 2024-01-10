@@ -36,7 +36,6 @@ function App() {
 
 	// deleteHandler is used to delete an item from the database
 	const deleteHandler = (id) => {
-		console.log(id)
 		// uses query parameter
 		axios.delete('http://localhost:3001/list/delete',  {params:{id: id}})
 		.then(res => {
@@ -62,7 +61,6 @@ function App() {
 
 	// searchHandler is used to search for items in the database
 	const searchHandler = () => {
-		console.log(search)
 
 		if(search === '')
 			return getHandler();
